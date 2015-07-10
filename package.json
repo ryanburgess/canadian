@@ -1,6 +1,6 @@
 {
   "name": "canadian",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A random generator for Canadian terms and sayings.",
   "main": "index.js",
   "preferGlobal": true,

@@ -14,3 +14,5 @@ npm install canadian -g
 
 ## Use
 Run ```canadian``` in your terminal to display a random Canadian term or saying.
+
+Run ```canadian <argument>``` in your terminal to display a the word definition. Example: ```canadian poutine```
