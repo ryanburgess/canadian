@@ -4,7 +4,7 @@
 
 A random generator for Canadian terms and sayings.
 
-![McKenzie Brothers](https://raw.github.com/ryanburgess/grunt-sassyclean/master/mckenzie-brothers.jpg)
+![McKenzie Brothers](https://raw.github.com/ryanburgess/canadian/master/mckenzie-brothers.jpg)
 
 ## Install
 
