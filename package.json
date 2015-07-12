@@ -1,6 +1,6 @@
 {
   "name": "canadian",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A random generator for Canadian terms and sayings.",
   "main": "index.js",
   "preferGlobal": true,
@@ -8,7 +8,7 @@
     "canadian": "./bin/canadian"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/ryanburgess/canadian/issues"
   },
-  "homepage": "https://github.com/ryanburgess/canadian#readme"
+  "homepage": "https://github.com/ryanburgess/canadian#readme",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
 }

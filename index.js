@@ -7,14 +7,16 @@ module.exports = function canadian(word) {
   }
 
   if(word !== undefined){
-    word = word.capitalizeFirstLetter();
+    var def;
+    word = word.toLowerCase().capitalizeFirstLetter();
     canadian.forEach(function(entry) {
       if(word === entry.word){
-        console.log('\n' + entry.word + ' - ' + entry.definition + '\n');
+        def = '\n' + entry.word.capitalizeFirstLetter() + ' - ' + entry.definition + '\n';
       }
     });
+    return def;
   }else{
-    var show = Math.floor((Math.random() * canadian.length) + 1);
-    console.log('\n' + canadian[show].word + ' - ' + canadian[show].definition + '\n');
+    var show = Math.floor((Math.random() * canadian.length));
+    return '\n' + canadian[show].word + ' - ' + canadian[show].definition + '\n';
   }
 };

@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 var canadian = require('../index');
 var argument = process.argv[2];
-
+var output;
 switch (true) {
   case (argument !== ''):
-    canadian(argument);
+    output = canadian(argument);
     break;
   default:
-    canadian();
+    output = canadian();
     break;
 }
+
+console.log(output);
