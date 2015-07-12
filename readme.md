@@ -1,6 +1,6 @@
 # Canadian
 
-[![npm version](https://badge.fury.io/js/canadian.svg)](http://badge.fury.io/js/canadian) [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://github.com/ryanburgess/canadian) [![Build Status](https://travis-ci.org/ryanburgess/canadian.svg?branch=master)](https://travis-ci.org/ryanburgess/canadian) [![Code Climate](https://img.shields.io/codeclimate/coverage/github/triAGENS/ashikawa-core.svg)](https://github.com/ryanburgess/canadian)
+[![npm version](https://badge.fury.io/js/canadian.svg)](http://badge.fury.io/js/canadian) [![npm](https://img.shields.io/npm/dm/canadian.svg)](https://github.com/ryanburgess/canadian) [![Build Status](https://travis-ci.org/ryanburgess/canadian.svg?branch=master)](https://travis-ci.org/ryanburgess/canadian)
 
 A random generator for Canadian terms and sayings.
 
